@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
     <title>Athallah Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
@@ -26,9 +27,9 @@
         </div>
         <div class="dropdown">
             <div class="links">
-                <a href="">Home</a>
+                <a href="#home">Home</a>
                 <a href="">About</a>
-                <a href="">Skills</a>
+                <a href="#skills">Skills</a>
                 <a href="">Project</a>
                 <a href="">Contact Us</a>
                 <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
@@ -36,7 +37,7 @@
         </div>
     </nav>
         <section>
-            <div class="main-container">
+            <div class="main-container" id="home">
                 <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
                     <img src="main.png" alt="">
                 </div>
@@ -52,6 +53,54 @@
                     </div>
                     <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
                         <button>Contact Me</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="skills_1" id="skills">
+                <div class="responsive-container-block bigContainer">
+                    <div class="responsive-container-block Container">
+                        <p class="text-blk subHeading">
+                        <strong>Skills</strong>
+                        </p>
+                        <p class="text-blk heading">
+                            
+                        <br>
+
+                        </p>
+                        <div class="responsive-container-block cardContainer">
+                            <div class="responsive-cell-block wk-desk-4 wk-ipadp-4 wk-tab-6 wk-mobile-12">
+                                <div class="card">
+                                    <p class="text-blk stats">
+                                        0
+                                    </p>
+                                    <p class="text-blk cardHeading">
+                                        Projek Selesai
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="responsive-cell-block wk-desk-4 wk-ipadp-4 wk-tab-6 wk-mobile-12">
+                                <div class="card">
+                                    <p class="text-blk stats">
+                                        0
+                                    </p>
+                                    <p class="text-blk cardHeading">
+                                        Client
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="responsive-cell-block wk-desk-4 wk-ipadp-4 wk-tab-6 wk-mobile-12">
+                                <div class="card">
+                                    <p class="text-blk stats">
+                                        0
+                                    </p>
+                                    <p class="text-blk cardHeading">
+                                        Rating Client
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -4,7 +4,7 @@
   // Navbar dropdown hamburger
     function hamburg(){
       const navbar = document.querySelector(".dropdown")
-      avbar.style.transform = "translateY(0px)"
+      navbar.style.transform = "translateY(0px)"
     }
     function cancel(){
       const navbar = document.querySelector(".dropdown")
